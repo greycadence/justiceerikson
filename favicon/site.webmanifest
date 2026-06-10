@@ -1,0 +1,21 @@
+{
+  "name": "Justice Erikson",
+  "short_name": "Justice",
+  "icons": [
+    {
+      "src": "/favicon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#f9db9d",
+  "background_color": "#f9db9d",
+  "display": "standalone"
+}
