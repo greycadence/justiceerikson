@@ -91,6 +91,7 @@ a, button {
     transition-property: filter;
     transition-duration: .3s;
     text-decoration: none;
+    text-wrap: nowrap;
 }
 a:hover, button:hover {
     filter: opacity(60%);;
@@ -232,7 +233,7 @@ footer a, footer p {
 #pre-button {
     text-transform: uppercase;
     padding-right: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 200;
 }
 #path-section {
@@ -308,7 +309,7 @@ footer a, footer p {
     #call-box {
         grid-area: 1 / 1 / 2 / 2;
         text-align: center;
-}
+    }
     #logo {grid-area: 2 / 1 / 3 / 2;}
     #mobile-nav-button {
         display: block;
@@ -337,4 +338,9 @@ footer a, footer p {
     #specialties h5 {padding-bottom: 2rem;}
     .yellow-block {margin: 0;}
     .desc {font-size: 1.75rem;}
+    #pre-button {
+        padding-bottom: 3rem;
+        display: block
+    }
+    .teal-section h4 {text-align: center;}
 }
