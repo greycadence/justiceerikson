@@ -121,6 +121,10 @@ img {max-width: 100vw;}
     color: var(--yellow);
     font-weight: 700;
 }
+.teal-section h1 {
+    color: var(--yellow);
+    text-align: left;
+}
 .yellow-section {
     background-color: var(--yellow);
 }
@@ -129,9 +133,10 @@ img {max-width: 100vw;}
     padding: 2rem;
     margin: 2rem;
 }
-.yellow-block p {
+.yellow-block li {
     color: var(--teal);
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    margin-left:1rem;
 }
 .quote {
     padding-top: 4rem;
@@ -262,9 +267,10 @@ footer a, footer p {
 /* Policies & Fees styling */
 #insurance {align-items: center;}
 #questions {
-    color: var(--yellow);
+    color: var(--teal);
     text-transform: none;
     font-weight: 500;
+    margin-top:-1rem;
 }
 #sliding-scale {
     display: grid;
