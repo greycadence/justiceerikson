@@ -300,6 +300,10 @@ footer a, footer p {
 .sponsored .desc { grid-area: 5 / 3 / 6 / 4; }
 
 .divider-1, .divider-2 {border-bottom: solid .125rem var(--teal);}
+iframe {
+    padding: 2rem;
+    background-color: white;
+}
 
 /* Mobile Styling */
 @media screen and (max-width: 720px) {
